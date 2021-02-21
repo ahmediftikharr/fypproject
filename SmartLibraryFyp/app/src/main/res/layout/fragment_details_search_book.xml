@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsSearchBookFragment"
+    android:background="@drawable/loginbackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+       >
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Details"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/userProfileTextBackgroundColor"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:textColor="@color/userProfileTextColor"
+            android:id="@+id/txt_book_name"
+            android:text="Book Name " />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/userProfileTextColor"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/userProfileTextBackgroundColor"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:id="@+id/txt_book_author"
+            android:text="Book Author" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/userProfileTextColor"
+            android:layout_marginTop="3dp"
+            android:background="@color/userProfileTextBackgroundColor"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:id="@+id/txt_book_edition"
+            android:text="Book Edition " />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/userProfileTextBackgroundColor"
+            android:textColor="@color/userProfileTextColor"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:id="@+id/txt_book_shelf"
+            android:text="Book Shelf" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/userProfileTextColor"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/userProfileTextBackgroundColor"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:id="@+id/txt_book_rack"
+            android:text="Book Rack" />
+
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/userProfileTextColor"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/userProfileTextBackgroundColor"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:id="@+id/txt_book_quantity"
+            android:text="Book Quantity" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/userProfileTextColor"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/userProfileTextBackgroundColor"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:id="@+id/txt_book_status"
+            android:text="Book Status" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:text="Back"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:id="@+id/btn_back_book_list"
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+</FrameLayout>

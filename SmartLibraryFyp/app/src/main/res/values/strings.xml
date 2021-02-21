@@ -1,0 +1,35 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="reset_pass">RESET PASSWORD</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="search">Search</string>
+    <string name="my_books">My Books</string>
+    <string name="issued_book">Issued Books</string>
+    <string name="my_profile">My Profile</string>
+    <string name="stu_name">Student Name</string>
+    <string name="stu_father_name">Father Name</string>
+    <string name="stu_roll_no">Roll Number</string>
+    <string name="stu_batch">Student Batch</string>
+    <string name="stu_dept">Student Dept</string>
+    <string name="your_fine">Your Fine</string>
+    <string name="title_activity_content_menu">ContentMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">RFID Smart Library</string>
+    <string name="nav_header_subtitle">University Of Sialkot</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_my_book_fragment">My Books</string>
+    <string name="txt_my_profile_fragment">Student Profile</string>
+    <string name="bookname">Book Name</string>
+    <string name="authorname">Author Name</string>
+    <string name="edition">Edition</string>
+    <string name="issue_date">Issue Date</string>
+    <string name="expiry_Date">Expiry Date</string>
+    <string name="return_Date">Return Date</string>
+
+</resources>

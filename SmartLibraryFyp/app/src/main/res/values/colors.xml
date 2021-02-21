@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorBlue">#4800fd</color>
+    <color name="lightPink">#fe8da0</color>
+    <color name="darkpink">#fa766f</color>
+
+    <color name="lightPurple">#a49ac6</color>
+    <color name="lightBlue">#6da2dc</color>
+    <color name="lightGrey">#d4d4d4</color>
+    <color name="menutextcolor">#004342</color>
+    <color name="cardviewcolor">#0FB99C</color>
+    <color name="profiletextcolor">#000000</color>
+    <color name="txtcolour">#004342</color>
+
+
+    <color name="userProfileTextColor">#0a0909</color>
+    <color name="userProfileTextBackgroundColor">#fff</color>
+    <color name="colorPrimary">#ff9d00</color>
+    <color name="colorPrimaryDark">#a45a0f</color>
+    <color name="colorAccent">#80634b</color>
+    <color name="white">#ffffff</color>
+    <color name="first">#a7ffeb</color>
+    <color name="second">#64ffda</color>
+    <color name="third">#1de9b6</color>
+    <color name="fourth">#00bfa5</color>
+    <color name="startcolor">#4b2b0f</color>
+    <color name="endcolor">#4b2b0f</color>
+
+
+</resources>

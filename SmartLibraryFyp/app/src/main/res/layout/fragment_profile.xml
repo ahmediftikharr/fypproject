@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="@drawable/screen_background">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loginbackground">
+
+            <ImageView
+                android:id="@+id/header_cover_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/loginbackground"
+                />
+
+            <ImageButton
+                android:id="@+id/student_profile_photo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/header_cover_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-60dp"
+                android:background="#4b4e4e"
+                android:elevation="5dp"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user_pic" />
+
+            <RelativeLayout
+                android:id="@+id/profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_cover_image"
+                android:background="@drawable/loginbackground"
+                android:elevation="4dp"
+                android:paddingBottom="24dp"
+                >
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/txt_profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="76dp"
+                    android:text="Student Name"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_profile_fine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_profile_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:text="Fine : NA"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_layout"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/userProfileTextBackgroundColor"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:padding="20dp"
+                    android:textColor="@color/userProfileTextColor"
+                    android:id="@+id/txt_profile_roll"
+                    android:text="Student ID" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/userProfileTextColor"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/userProfileTextBackgroundColor"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:padding="20dp"
+                    android:id="@+id/txt_profile_mobile"
+                    android:text="Student Mobile"
+
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/userProfileTextBackgroundColor"
+                    android:textColor="@color/userProfileTextColor"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:padding="20dp"
+                    android:id="@+id/txt_profile_department"
+                    android:text="Student Department" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/userProfileTextColor"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/userProfileTextBackgroundColor"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:padding="20dp"
+                    android:id="@+id/txt_profile_batch"
+                    android:text="Student Batch" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/userProfileTextColor"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/userProfileTextBackgroundColor"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:padding="20dp"
+                    android:id="@+id/txt_profile_email"
+                    android:text="Student Email" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>
